@@ -8,7 +8,7 @@ module.exports = function(app) {
     .get(employeeRegistry.list_all_employees)
     .post(employeeRegistry.create_an_employee);
 
-  app.route ('/employee/employeeId')
+  app.route ('/employee/:employeeId')
     .get(employeeRegistry.read_an_employee)
     .put(employeeRegistry.update_an_employee)
     .delete(employeeRegistry.delete_an_employee);
