@@ -42,7 +42,7 @@ exports.delete_an_employee = function(req, res) {
     if(err)
       res.send(err);
     res.json({ message: 'Employee successfully deleted' });
-  }
+  });
 };
 
 
