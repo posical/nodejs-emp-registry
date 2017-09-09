@@ -1,4 +1,4 @@
-'úse strict';
+'use strict';
 
 module.exports = function(app) {
   var employeeRegistry = require('../controllers/employeeRegisterController');

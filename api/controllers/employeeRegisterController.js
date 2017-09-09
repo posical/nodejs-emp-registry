@@ -21,18 +21,18 @@ exports.create_an_employee = function(req, res) {
 };
 
 exports.read_an_employee = function(req, res) {
-  Employee.findById(req.params.employeeId, function(err,task) {
+  Employee.findById(req.params.employeeId, function(err, employee) {
     if(err)
       res.send(err);
-    res.json(task);
+    res.json(employee);
   });
 };
 
 exports.update_an_employee = function(req, res) {
-  Employee.findOneAndUpdate({_id: req.params.employeeId}, req.body, {new: true}, function(err, task) {
+  Employee.findOneAndUpdate({_id: req.params.employeeId}, req.body, {new: true}, function(err, employee) {
     if(err)
       res.send(err);
-    res.json(task);
+    res.json(employee);
   });
 };
 
