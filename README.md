@@ -4,12 +4,12 @@ Test Project to create a mock employee registry CRUD
 
 File structure
 ---
-* api
-  * controllers
+* api/
+  * controllers/
     * employeeRegisterController.js
-   * models 
+   * models/
      * employeeRegisterModel.js.gitignore
-   * routes
+   * routes/
      * employeeRegisterRoutes.js
 * package.json
 * README.MD
