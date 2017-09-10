@@ -36,9 +36,10 @@ File structure
   * controllers/
     * employeeRegisterController.js
    * models/
-     * employeeRegisterModel.js.gitignore
+     * employeeRegisterModel.js
    * routes/
      * employeeRegisterRoutes.js
+* .gitignore
 * package.json
 * README.MD
 * server.js
