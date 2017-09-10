@@ -13,7 +13,7 @@ The API methods are as such:
 In relation to the CRUD functions:
 ```
 Create : POST
-Read : GET
+Read   : GET
 Update : PUT
 Delete : DELETE
 ```
