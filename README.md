@@ -45,7 +45,7 @@ File structure
 * server.js
 
 
-Technology
+Technology Stack
 ---
 * NodeJS
 * ExpressJS
